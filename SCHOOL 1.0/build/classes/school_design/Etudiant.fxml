@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="545.0" prefWidth="744.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane prefHeight="564.0" prefWidth="518.0" style="-fx-background-color: #126fc6#126fc6;" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="226.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab id="profil" fx:id="profil" text="Profil        " />
+          <Tab id="classe" fx:id="classe" text="Classe        " />
+            <Tab id="note" fx:id="note" text="Les Notes       ">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab id="cours" fx:id="cours" text="Cours          ">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="537.0" prefWidth="531.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+  <AnchorPane layoutX="-70.0" layoutY="245.0" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
